@@ -8,16 +8,15 @@ int main(void)
 	int y;
 
 	y = 0;
-	while (y < 100)
+	for (y <= 9; y++;)
 	{
-		putchar((y / 10) + '0');
 		putchar((y % 10) + '0');
-		if (y < 99)
+		if (y == 9)
 		{
-			putchar(',');
-			putchar(' ');
+			continue;
 		}
-		y++;
+		putchar(',');
+		putchar(' ');
 	}
 	putchar('\n');
 	return (0);
