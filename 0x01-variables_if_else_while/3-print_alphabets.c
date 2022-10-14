@@ -19,6 +19,6 @@ int main(void)
 		putchar(cap);
 		cap++;
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
