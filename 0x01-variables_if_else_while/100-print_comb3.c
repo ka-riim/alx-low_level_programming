@@ -5,7 +5,8 @@
 */
 int main(void)
 {
-	int y, z;
+	int y;
+	int z;
 
 	for (y = 0; z <= 9; y++)
 	{
