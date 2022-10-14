@@ -5,12 +5,13 @@
 */
 int main(void)
 {
-	int y;
+	int y, z;
 
-	for (y = 0; y <= 9; y++)
+	for (y = 0; z <= 9; y++)
 	{
 		putchar((y % 10) + '0');
-		if (y == 9)
+		putchar((z % 10) + '0');
+		if (y == 8 && z == 9)
 		{
 			continue;
 		}
