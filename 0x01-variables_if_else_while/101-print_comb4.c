@@ -15,9 +15,9 @@ int main(void)
 			{
 				if (a != b && a != c && b != c)
 				{
-					putchar((a % 10) + '0');
-					putchar((b % 10) + '0');
-					putchar((c % 10) + '0');
+					putchar(a + '0');
+					putchar(b + '0');
+					putchar(c + '0');
 					if (a + b + c < 24)
 					{
 						putchar(',');
