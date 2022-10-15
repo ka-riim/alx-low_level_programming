@@ -13,15 +13,17 @@ int main(void)
 		{
 			for (c = b + 1; c <= 10; b++)
 			{
-				putchar((a % 10) + '0');
-				putchar((b % 10) + '0');
-				putchar((c % 10) + '0');
-				if (a == 7 && b == 8 && c == 9)
+				if (a != b && a != c && b != c)
 				{
-					continue;
+					putchar((a % 10) + '0');
+					putchar((b % 10) + '0');
+					putchar((c % 10) + '0');
+					if (a == 7 && b == 8 && c == 9)
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
-				putchar(',');
-				putchar(' ');
 			}
 		}
 	}
