@@ -15,8 +15,6 @@ void jack_bauer(void)
 			_putchar(';');
 			_putchar((num2 / 10) + '0');
 			_putchar((num2 % 10) + '0');
-			if (num1 == 23 && num2 == 59)
-				continue;
 			_putchar('\n');
 		}
 	}
