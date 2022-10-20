@@ -1,1 +1,1 @@
-if statements
+readme for functions
