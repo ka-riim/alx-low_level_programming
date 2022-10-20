@@ -20,6 +20,6 @@ void more_numbers(void)
 			p++;
 		}
 		x++;
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
