@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * rev_string - entry
- * @s - integer
+ * @s: integer
 */
 void rev_string(char *s)
 {
@@ -13,7 +13,7 @@ void rev_string(char *s)
 	{
 		c++;
 	}
-	for (i = 0; i < c;i++)
+	for (i = 0; i < c; i++)
 	{
 		c--;
 		rv = s[i];
