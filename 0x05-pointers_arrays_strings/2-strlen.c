@@ -5,10 +5,10 @@
  * Return: Always 0
 */
 int _strlen(char *s)
-{
+{i
 	int i;
 
-	for (i = 0; s[i] != '\0'; s++)
+	for (i = 0; s != '\0'; s++)
 	{
 		i++;
 		return (i);
