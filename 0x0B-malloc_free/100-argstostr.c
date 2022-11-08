@@ -25,7 +25,7 @@ char *argstostr(int ac, char **av)
 		return (NULL);
 	for (i = 0; av[i]; i++)
 	{
-		for (j = 0; av[i][j]; j++, clen++)
+		for (j = 0; av[i][j]; j++, blen++)
 			s[blen] = av[i][j];
 		s[blen] = '\n';
 		blen++;
