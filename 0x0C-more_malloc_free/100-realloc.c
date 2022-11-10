@@ -26,7 +26,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	}
 	if (new_size > old_size)
 	{
-		x = = malloc(new_size * sizeof(char));
+		x = malloc(new_size * sizeof(char));
 		ctr = ptr;
 		for (i = 0; i < old_size; i++)
 			x[i] = ctr[i];
