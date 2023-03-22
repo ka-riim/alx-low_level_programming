@@ -243,5 +243,3 @@ Requirements:
 * You are not allowed to use the `%.o`: `%.c` rule
 * Your Makefile should work even if there is a file in the folder that has the same name as one of your rule
 * Your Makefile should not compile if the header file `m.h` is missing
-
-**Solution:** [100-Makefile](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x1C-makefiles/100-Makefile)
